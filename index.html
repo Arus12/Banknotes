@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <title>Počet bankovek</title>
+  <link href="css/style.css" rel="stylesheet" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="Jan Černý" />
+</head>
+
+<body>
+  <header>
+    <h1>Kalkulačka pro počet bankovek z dané hodnoty v kč</h1>
+  </header>
+  <div class="main">
+    <div>
+      <form action="./php/banknotes.php" method="POST">
+        <div class="field field_v1">
+
+          <input id="value" class="field__input" placeholder="např. 450" name="value">
+          <span class="field__label-wrap" aria-hidden="true">
+            <span class="field__label">Zadejte hodnotu</span>
+          </span>
+        </div>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="CZE" checked>
+          <div class="rad-design"></div>
+          <div class="rad-text">CZE</div>
+        </label>
+
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="EUR">
+          <div class="rad-design"></div>
+          <div class="rad-text">EUR</div>
+        </label>
+
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="GBP">
+          <div class="rad-design"></div>
+          <div class="rad-text">GBP</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="USD">
+          <div class="rad-design"></div>
+          <div class="rad-text">USD</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="AUD">
+          <div class="rad-design"></div>
+          <div class="rad-text">AUD</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="BRL">
+          <div class="rad-design"></div>
+          <div class="rad-text">BRL</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="DKK">
+          <div class="rad-design"></div>
+          <div class="rad-text">DKK</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="HRK">
+          <div class="rad-design"></div>
+          <div class="rad-text">HRK</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="CNY">
+          <div class="rad-design"></div>
+          <div class="rad-text">CNY</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="HUF">
+          <div class="rad-design"></div>
+          <div class="rad-text">HUF</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="NOK">
+          <div class="rad-design"></div>
+          <div class="rad-text">NOK</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="PLN">
+          <div class="rad-design"></div>
+          <div class="rad-text">PLN</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="RON">
+          <div class="rad-design"></div>
+          <div class="rad-text">RON</div>
+        </label>
+        <label class="rad-label">
+          <input type="radio" class="rad-input" name="currency" value="RUB">
+          <div class="rad-design"></div>
+          <div class="rad-text">RUB</div>
+        </label>
+        <div class="wrapper">
+          <button class="">
+            <span>Přidat hodnotu
+            </span>
+      </form>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <h2>Kalkulačka</h2>
+  </footer>
+</body>
+
+</html>
