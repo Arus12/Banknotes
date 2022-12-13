@@ -1,2 +1,5 @@
 # Banknotes
-In this project the main goal is according to the current exchange rate, calculate the currency that the user selects on the page as Czech currency (Czech crowns)
+In this project the main goal is according to the current exchange rate, calculate the currency that the user selects on the page as Czech currency (Czech crowns).
+User enters/selects:
+- currency
+- amount of money 
